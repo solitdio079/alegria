@@ -1,0 +1,127 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.btn{
+    margin: 0.5rem;
+    border-radius: 0px;
+}
+.navbar{
+    background: #fff;
+}
+.hero{
+    display: flex;
+    justify-content: start;
+    padding: 2rem;
+    min-height: 90vh;
+    background-image: url("https://www.gofundme.com/c/wp-content/uploads/2018/07/iStock-873780612-scaled-1.jpg?w=1920");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+}
+
+.hero-left{
+    flex: 1;
+    max-width: 75%;
+}
+.hero-left h1, .hero-left p{
+    max-width: fit-content;
+    background-color: red;
+    color: #fff;
+    padding: 0 .5rem;
+}
+
+.icon-cards {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.icon-card {
+    padding: 8rem 5rem;
+    font-size: 27px;
+    flex: 1;
+    min-width: 350px;
+}
+.icon-card a, .section-title a {
+    font-size: 16px;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+.icon-card a i {
+    font-size: 14px;
+    color: red;
+}
+.icon-card-image{
+    flex: 2;
+}
+.icon-card-image img{
+    max-width: 100%;
+}
+
+.video-section{
+    margin: 5rem 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+}
+.video-section img{
+    flex: 1;
+    min-width: 450px;
+
+}
+.video-section p {
+    flex: 2;
+    padding: 6rem;
+    height: 100%;
+    min-width: 60%;
+    color: white;
+    margin: 0 -2rem;
+    z-index: -1;
+    
+
+}
+
+.action-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0 6rem;
+}
+.section-title{
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-title h1{
+   font-weight: 900;
+   min-width: 600px;
+}
+
+.action-cards{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.action-cards .card{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    border: none;
+}
+.action-cards .card .card-title h3{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+
+.progress-section span{
+    font-weight: bold;
+    color: #aaa;
+}
+.progress-section .percentage{
+    font-weight: bold;
+    color: black;
+
+}

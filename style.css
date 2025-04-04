@@ -499,3 +499,53 @@ footer .footer-logo{
     display: flex;
     flex-direction: column;
 }
+.teams{
+    padding: 6rem;
+    display: flex;
+    flex-direction: column;
+}
+.teams .teams-title{
+    display: flex;
+    flex-wrap: wrap;
+}
+.teams .teams-title h1{
+    font-size: 40px;
+    font-weight: 800;
+    flex: 1;
+}
+.teams .teams-title p{
+    flex: 2;
+    min-width: 400px;
+}
+
+.teams-cards{
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 25px;
+}
+.teams-cards .teams-card{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.teams-cards .teams-card .card-infos{
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+
+}
+.teams-cards .teams-card .card-infos h3{
+   
+    font-size: 27px;
+    font-weight: 700;
+}
+.teams-cards .teams-card .card-infos p{
+    color: #ff6f61;
+    font-size: 17px;
+
+}

@@ -6,6 +6,23 @@
 body{
     margin: 0;
 }
+
+/* Header */
+header{
+    background-image:  url('./images/02.jpeg');
+    background-blend-mode: color;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    opacity: 0.85;
+    background-color: blue;
+    z-index: 0;
+}
+
 .btn{
     margin: 0.5rem;
     border-radius: 0px;
@@ -16,7 +33,7 @@ body{
 .hero{
     display: flex;
     justify-content: start;
-    padding: 2rem;
+    padding: 2rem 6rem;
     min-height: 90vh;
     background-image: url("https://www.gofundme.com/c/wp-content/uploads/2018/07/iStock-873780612-scaled-1.jpg?w=1920");
     background-repeat: no-repeat;
@@ -46,7 +63,7 @@ body{
     flex: 1;
     min-width: 350px;
 }
-.icon-card a, .section-title a, .about-section .about-card a {
+.icon-card a, .section-title a, .about-section .about-card a, .discover-icon-card a {
     font-size: 16px;
     text-decoration: none;
     color: #ff6f61;
@@ -273,15 +290,18 @@ body{
     display: flex;
     padding: 6rem;
     flex-wrap: wrap;
+    gap: 50px;
     justify-content: space-between;
 }
 .contact-section .left{
     display: flex;
     flex-direction: column;
+    align-items: start;
+    flex: 1;
 }
-.contact-section .left p{
+.contact-section .left p span,.contact-section .left p i{
     font-size: 26px;
-    
+    margin-left: 0.5rem;
 }
 .contact-section .left span{
     font-size: 17px;
@@ -292,13 +312,190 @@ body{
     display: flex;
     align-items: end;
     flex-direction: column;
+    flex: 1;
 }
 .contact-section .right p{
     font-size: 17px;
     font-weight: 200;
 }
-.contact-section .right .social-icons{
+ .social-icons{
     display: flex;
     gap: 25px;
     font-size: 20px;
+}
+
+.two-images{
+    display: flex;
+    max-width: 100vw;
+}
+.two-images img{
+    flex: 1;
+    width: 50vw;
+}
+footer{
+    padding: 6rem;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+footer .footer-logo{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+/* Discover */
+.discover-hero{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    min-height: 40vh;
+    justify-content: center;
+    align-items: center;
+    color: #e6e6e6;
+    font-weight: bold;
+}
+.discover-hero h1 {
+    font-size: 40px;
+    font-weight: 800;
+    z-index: 1;
+   
+}
+.discover-hero p {
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.discover-video{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 6rem;
+}
+
+.discover-video .left{
+    min-width: 400px;
+    flex: 1;
+
+}
+.discover-video .left .link-span{
+    color: #ff6f61;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.discover-video .left h2 {
+    margin: 1rem 0 ;
+    font-size: 25px;
+    font-weight: bold;
+}
+.discover-video .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 400px;
+    flex: 1;
+}
+
+.discover-icon-cards {
+    padding: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.discover-icon-cards .discover-icon-card{
+    min-width: 350px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.discover-icon-cards .discover-icon-card img{
+    max-width: 100px;
+}
+.discover-icon-cards .discover-icon-card h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+.discover-icon-cards .discover-icon-card p{
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.transparence{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    position: relative;
+    max-width: 100vw;
+    overflow: hidden;
+    align-items: center;
+}
+
+.transparence .transparence-card{
+    padding: 3rem;
+    z-index: 1;
+    flex: 1;
+    min-width: 400px;
+}
+.transparence .transparence-card span {
+    z-index: 1;
+    color: #ff6f61;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.transparence .transparence-card h2{
+    z-index: 1;
+    font-size: 36px;
+    margin: 1.5rem 0;
+    font-weight: bold;
+}
+.transparence .right{
+    padding: 3rem;
+    z-index: 1;
+    flex: 1;
+     min-width: 400px;
+}
+.transparence .right canvas {
+    color: #e6e6e6;
+    z-index: 1;
+    min-width: 400px;
+    min-height: 400px;
+}
+
+/* Discover */
+.discover-benevole{
+    display: flex;
+    padding: 6rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+.discover-benevole h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.discover-benevole p{
+    padding: 2rem;
+    font-style: italic;
+    font-size: 17px;
+    border: 1px solid #707070;
+}
+/* */
+.discover-bottom-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 6rem;
+}
+.discover-bottom-cards .bottom-card{
+    min-width: 300px;
+    flex: 1;
+    padding: 3rem;
+    color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
 }

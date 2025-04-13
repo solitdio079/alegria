@@ -97,7 +97,7 @@ header.contact-header{
 }
 .video-section p {
     flex: 2;
-    padding: 6rem;
+    padding: 3rem;
     height: 100%;
     min-width: 60%;
     color: white;
@@ -110,7 +110,7 @@ header.contact-header{
 .action-section{
     display: flex;
     flex-direction: column;
-    padding: 0 6rem;
+    padding: 0 3rem;
 }
 .section-title{
     margin-bottom: 5rem;
@@ -187,7 +187,7 @@ header.contact-header{
 .team {
     display: flex;
     flex-direction: column;
-    padding: 0 6rem;
+    padding: 0 3rem;
 }
 
 /* team card */
@@ -247,7 +247,7 @@ header.contact-header{
 
 .team-cards {
     display: flex;
-    margin: 0 -6rem;
+    margin: 0 -3rem;
 
 }
 
@@ -257,7 +257,7 @@ header.contact-header{
     background-image: url("./images/03.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 6rem;
+    padding: 3rem;
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
@@ -266,7 +266,7 @@ header.contact-header{
 }
 .info-section .info-card{
     min-width: 370px;
-    padding: 5rem 3rem 6rem;
+    padding: 5rem 3rem 3rem;
     flex: 1;
 }
 .info-section .info-card span{
@@ -292,7 +292,7 @@ header.contact-header{
 
 .contact-section{
     display: flex;
-    padding: 6rem;
+    padding: 3rem;
     flex-wrap: wrap;
     gap: 50px;
     justify-content: space-between;
@@ -337,7 +337,7 @@ header.contact-header{
     width: 50vw;
 }
 footer{
-    padding: 6rem;
+    padding: 3rem;
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
@@ -374,7 +374,7 @@ footer .footer-logo{
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    padding: 6rem;
+    padding: 3rem;
 }
 
 .discover-video .left{
@@ -402,7 +402,7 @@ footer .footer-logo{
 }
 
 .discover-icon-cards {
-    padding: 6rem;
+    padding: 3rem;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -471,7 +471,7 @@ footer .footer-logo{
 /* Discover */
 .discover-benevole{
     display: flex;
-    padding: 6rem;
+    padding: 3rem;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -493,7 +493,7 @@ footer .footer-logo{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 0 6rem;
+    padding: 0 3rem;
 }
 .discover-bottom-cards .bottom-card{
     min-width: 300px;
@@ -504,7 +504,7 @@ footer .footer-logo{
     flex-direction: column;
 }
 .teams{
-    padding: 6rem;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
 }
@@ -559,7 +559,7 @@ footer .footer-logo{
     display: flex;
     background: black;
     color: #fff;
-    padding: 3rem 6rem;
+    padding: 3rem 3rem;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
@@ -580,7 +580,7 @@ footer .footer-logo{
 .contact-form{
     display: flex;
     flex-direction: column;
-    padding: 6rem;
+    padding: 3rem;
     justify-content: center;
     text-align: center;
 }
